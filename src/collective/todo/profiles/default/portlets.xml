@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<portlets
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="plone">
+  <portlet
+    addview="collective.todo.portlets.Recent"
+    title="Place weather"
+    description="An example portlet which can render a listing of recently changed items."
+    i18n:attributes="title title_recent_portlet;
+                     description description_recent_portlet">
+    <for interface="plone.app.portlets.interfaces.IColumn" />
+    <for interface="plone.app.portlets.interfaces.IDashboard" />
+  </portlet>
+</portlets>
